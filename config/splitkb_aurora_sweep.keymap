@@ -168,12 +168,13 @@
 		>;
 		};
 
+				// TODO: add a &mo to another layer with a numpad area
 			 		cod_layer {
 		bindings = <
-		&mt TAB CAPS &kp N1 &kp N2 &mt N4 N3 &kp G                    &mt LA(F4) F4	&none	&none	&mt LA(F9) F9 &mt LA(F10) F10
-		&kp LSHIFT   &kp A  &kp W  &kp D     &kp F                    &kp F2		&none	&none	&none			&kp X
-		&kp LCTRL    &kp R  &kp S  &kp E     &kp Q                    &kp N3		&kp N4	&kp N5	&kp N6			&kp ESC
-																   &kp C &kp SPACE                &none  &to BASE
+		&mt TAB CAPS &kp N1 &kp N2 &kp N3    &kp G                    &kp F1		&kp F2	&kp F3	&mt LA(F9) F9 &mt LA(F10) F10
+		&kp LSHIFT   &kp A  &kp W  &kp D     &kp F                    &none			&none		&none		&none					&kp X
+		&kp LCTRL    &kp R  &kp S  &kp E     &kp Q                    &kp N3		&kp N4	&kp N5	&kp N6				&kp ESC
+																   &kp C &kp SPACE                &none			&to BASE
 		>;
 		};
 	};
